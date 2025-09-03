@@ -9,6 +9,6 @@ services:
       - key: SESSION
         value: "RGNK~ZTfM0nyB"
       - key: DATABASE_URL
-        fromDatabase:"dpg-d2s14lur433s738eo720-a"
+        fromDatabase:
           name: my-database
           property: connectionString
